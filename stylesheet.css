@@ -367,22 +367,22 @@ section {
 }
 
 .process-line.CSS span {
-    width: 75%;
+    width: 65%;
 
 }
 
 .process-line.JavaScript span {
-    width: 55%;
+    width: 45%;
 
 }
 
 .process-line.Python span {
-    width: 70%;
+    width: 75%;
 
 }
 
 .process-line.Django span {
-    width: 55%;
+    width: 65%;
 
 }
 
