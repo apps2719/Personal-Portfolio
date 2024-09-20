@@ -409,23 +409,23 @@ section {
 }
 
 .process-line.CSS span::after {
-    content: "75%";
+    content: "65%";
 }
 
 .process-line.JavaScript span::after {
-    content: "55%";
+    content: "45%";
 }
 
 .process-line.MySQL span::after {
-    content: "70%";
+    content: "80%";
 }
 
 .process-line.Python span::after {
-    content: "55%";
+    content: "75%";
 }
 
 .process-line.Django span::after {
-    content: "80%";
+    content: "65%";
 }
 
 .process-line span::before {
