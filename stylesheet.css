@@ -195,6 +195,8 @@ body {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
+    margin-right: 2rem;
+    text-align: justify;
 }
 
 #services {
@@ -213,16 +215,16 @@ body {
 
 .sub-title span {
     color: #0ef;
-}
+   }
 
 .container {
-    padding: 90px;
+    padding: 150px;
 }
 
 .services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 40px;
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
+    grid-gap: 50px;
     margin-top: 50px;
 }
 
@@ -516,20 +518,20 @@ section {
 
 @keyframes animate-path1 {
     100% {
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 100;
         ;
     }
 }
 
 @keyframes animate-path2 {
     100% {
-        stroke-dashoffset: 175;
+        stroke-dashoffset: 185;
     }
 }
 
 @keyframes animate-path3 {
     100% {
-        stroke-dashoffset: 125;
+        stroke-dashoffset: 50;
     }
 }
 
@@ -586,7 +588,7 @@ section {
 }
 
 .row {
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
